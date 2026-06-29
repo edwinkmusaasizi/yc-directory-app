@@ -1,30 +1,36 @@
-YC Directory - Full-Stack Next.js 15 Application
-A production-ready, full-stack web application built using Next.js 15 and React 19. Inspired by Y Combinator, YC Directory is a platform where entrepreneurs can pitch their startup ideas, discover other innovative projects, and connect with a community of builders.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-🚀 Features
-User Authentication: Secure social login flow powered by NextAuth.js.
+## Getting Started
 
-Live Startup Feed: Real-time search and filtering using URL query parameters for fast, bookmarkable discoveries.
+First, run the development server:
 
-Content Management (CMS): Backed by Sanity.io with type-safe data fetching, live API updates, and seamless content write capabilities.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Partial Pre-rendering (PPR): Utilizes Next.js 15's cutting-edge PPR feature to combine static and dynamic rendering for optimal performance.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Startup Pitch Creation: A comprehensive markdown-supported form for users to pitch their startups with a rich presentation layout.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-Performance Monitoring: Integrated with Sentry for real-time error tracking and application performance monitoring.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Responsive UI: Styled cleanly with Tailwind CSS, featuring custom themes and modern typography.
+## Learn More
 
-🛠️ Tech Stack
-Framework: Next.js 15 (App Router), React 19
+To learn more about Next.js, take a look at the following resources:
 
-Database / CMS: Sanity.io
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Authentication: NextAuth.js (v5)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Styling: Tailwind CSS, Shadcn UI (optional components)
+## Deploy on Vercel
 
-Monitoring: Sentry
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Deployment: Vercel
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
