@@ -8,16 +8,17 @@ export interface StartupTypeCard {
   _createdAt: string;
   views: number;
   author: {
-    _id: number;
+    _id: string | number;
     name: string;
     image?: string;
   };
-  _id: number;
+  _id: string | number;
   description: string;
   image: string;
   category: string;
   title: string;
 }
+
 
 const StartupCard = ({ post }: { post: StartupTypeCard }) => {
   const {

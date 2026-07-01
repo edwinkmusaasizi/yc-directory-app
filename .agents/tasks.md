@@ -1,0 +1,7 @@
+- [x] Create Sanity author schema `sanity/schemaTypes/author.ts`
+- [x] Create Sanity startup schema `sanity/schemaTypes/startup.ts`
+- [x] Register schemas in `sanity/schemaTypes/index.ts`
+- [x] Create Sanity queries in `sanity/lib/queries.ts`
+- [x] Update `components/StartupCard.tsx` TypeScript types
+- [x] Integrate Sanity queries and `<SanityLive />` on the homepage `app/(root)/page.tsx`
+- [x] Verify that changes compile and run without errors
