@@ -10,18 +10,23 @@ const Navbar = async () => {
         <header className ="px-5 py-3 bg-white shadow-sm font-work-sans">
             <nav className="flex justify-between items-center">
                 <Link href="/">
-                    <Image src ="/logo.png" alt="logo" width={144} height={30} />
+                    <Image src ="/logo.png" alt="logo" width={144} height={30} className="w-auto h-[30px] object-contain max-w-full"
+                           priority/>
                 </Link>
 
                 <div className="flex items-center gap-5 text-black">
                     {session && session?.user?(
                         <>
                             <Link href="/startup/create">
-                                <span>Creat</span>
+                                <span>Create</span>
                             </Link>
-                            <button onClick={signOut}>
-                                <span>logout</span>
-                            </button>
+                            <form action={async () => {
+                               "use server";
+
+                               await signOut( {redirectTo: "/"})
+                            }}>
+                                <button type="submit">Logout</button>
+                            </form>
 
                             <Link href={`/user/${session?.id}`}>
                                 <span>{session?.user?.name}</span>
