@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8fb3732-68f3-443d-95c2-0fb758055862" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc_directory/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/app/(root)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc_directory/components/StartupCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/components/StartupCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc_directory/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc_directory/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc_directory/sanity/schemaTypes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/sanity/schemaTypes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/sanity/lib/image.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="70" />
+    <option name="cachedIndexableFilesCount" value="90" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -173,6 +168,7 @@
       <workItem from="1782815486015" duration="12857000" />
       <workItem from="1782883692810" duration="10067000" />
       <workItem from="1782895120250" duration="18195000" />
+      <workItem from="1782916189818" duration="315000" />
     </task>
     <servers />
   </component>
