@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8fb3732-68f3-443d-95c2-0fb758055862" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/yc_directory/tailwind.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc_directory/app/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/app/components/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc_directory/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/app/(root)/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yc_directory/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yc_directory/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yc_directory/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yc_directory/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc_directory/public/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/public/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/postcss.config.mjs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="60" />
+    <option name="cachedIndexableFilesCount" value="70" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,61 +35,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0000000000000073" />
-      <entry key="S60" value="1.000000255422088" />
-      <entry key="M2" value="1.0015141322981043" />
-      <entry key="M5" value="1.2783644990934988" />
-      <entry key="M10" value="2.6678531790319076" />
-      <entry key="M15" value="4.740447741040684" />
-      <entry key="M30" value="17.58479795292662" />
-      <entry key="H1" value="58.013690561736254" />
-      <entry key="H2" value="132.03782199544509" />
-      <entry key="H4" value="226.55515566930333" />
-      <entry key="D1" value="410.94990646046205" />
-      <entry key="W1" value="464.1712375692985" />
+      <entry key="MS100" value="1.0000000000000033" />
+      <entry key="MS500" value="1.0014046592553958" />
+      <entry key="S2" value="1.296932828433649" />
+      <entry key="S5" value="1.9241425568438597" />
+      <entry key="S10" value="2.3574275999697027" />
+      <entry key="S30" value="2.757020101183192" />
+      <entry key="S60" value="2.8744969914700764" />
+      <entry key="M2" value="2.936211154734493" />
+      <entry key="M5" value="2.974687336455693" />
+      <entry key="M10" value="3.0389093962019715" />
+      <entry key="M15" value="3.326741567200837" />
+      <entry key="M30" value="7.486244987326631" />
+      <entry key="H1" value="32.004785148980176" />
+      <entry key="H2" value="96.26997511865625" />
+      <entry key="H4" value="193.53328700463078" />
+      <entry key="D1" value="402.937225964766" />
+      <entry key="W1" value="466.2087684144828" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
-      <entry key="S10" value="4.514285160222073E-185" />
-      <entry key="S30" value="3.560653091113933E-62" />
-      <entry key="S60" value="1.8869692873396643E-31" />
-      <entry key="M2" value="4.3439556161571767E-16" />
-      <entry key="M5" value="7.253603537092912E-7" />
-      <entry key="M10" value="0.001002944210802461" />
-      <entry key="M15" value="0.01348600430025821" />
-      <entry key="M30" value="0.25381334876683764" />
-      <entry key="H1" value="1.481016410885691" />
-      <entry key="H2" value="4.6701494857766805" />
-      <entry key="H4" value="10.272913449973203" />
-      <entry key="D1" value="23.931250656776516" />
-      <entry key="W1" value="28.201856799233592" />
+      <entry key="S10" value="4.060946685001688E-296" />
+      <entry key="S30" value="3.437233975402673E-99" />
+      <entry key="S60" value="5.862792829056185E-50" />
+      <entry key="M2" value="2.4213369944680947E-25" />
+      <entry key="M5" value="1.4421876020779323E-10" />
+      <entry key="M10" value="1.4141997219466036E-5" />
+      <entry key="M15" value="7.871169684867423E-4" />
+      <entry key="M30" value="0.06131863092374728" />
+      <entry key="H1" value="0.7279455008339549" />
+      <entry key="H2" value="3.2741628737496034" />
+      <entry key="H4" value="8.60158287353162" />
+      <entry key="D1" value="23.233404503814885" />
+      <entry key="W1" value="28.08287879940984" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.9085508380649E-19" />
-      <entry key="MS500" value="2.0816281537303611E-4" />
-      <entry key="S2" value="0.12011597980762921" />
-      <entry key="S5" value="0.4283909773842849" />
-      <entry key="S10" value="0.6545158343266303" />
-      <entry key="S30" value="0.8682405248861857" />
-      <entry key="S60" value="0.9317945055816239" />
-      <entry key="M2" value="0.9668086280696896" />
-      <entry key="M5" value="1.2643057500005845" />
-      <entry key="M10" value="2.6616630063549045" />
-      <entry key="M15" value="4.748649413596199" />
-      <entry key="M30" value="17.83254273511728" />
-      <entry key="H1" value="59.48258811282692" />
-      <entry key="H2" value="136.68980962455984" />
-      <entry key="H4" value="236.8090208935075" />
-      <entry key="D1" value="434.87412469269515" />
-      <entry key="W1" value="492.3719193882769" />
+      <entry key="MS100" value="9.211886686296529E-7" />
+      <entry key="MS500" value="0.06296364863424889" />
+      <entry key="S2" value="0.7509198883489021" />
+      <entry key="S5" value="1.6163540552002393" />
+      <entry key="S10" value="2.17735610399744" />
+      <entry key="S30" value="2.6892850353843523" />
+      <entry key="S60" value="2.839513009188455" />
+      <entry key="M2" value="2.9184270307131412" />
+      <entry key="M5" value="2.967495697259687" />
+      <entry key="M10" value="3.0350992172910725" />
+      <entry key="M15" value="3.324489082904813" />
+      <entry key="M30" value="7.544221026661659" />
+      <entry key="H1" value="32.72548823021535" />
+      <entry key="H2" value="99.53061654851747" />
+      <entry key="H4" value="202.11847913069522" />
+      <entry key="D1" value="426.16372179841636" />
+      <entry key="W1" value="494.290465368198" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -175,10 +173,16 @@
       <workItem from="1782799464321" duration="13797000" />
       <workItem from="1782815486015" duration="12857000" />
       <workItem from="1782883692810" duration="10067000" />
+      <workItem from="1782895120250" duration="5545000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/yc_directory/tailwind.config.js" />
+      </list>
+    </option>
   </component>
 </project>
