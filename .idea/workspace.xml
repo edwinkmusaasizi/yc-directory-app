@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a8fb3732-68f3-443d-95c2-0fb758055862" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc_directory/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/app/(root)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yc_directory/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +169,7 @@
       <workItem from="1782799464321" duration="13797000" />
       <workItem from="1782815486015" duration="12857000" />
       <workItem from="1782883692810" duration="10067000" />
-      <workItem from="1782895120250" duration="15935000" />
+      <workItem from="1782895120250" duration="17617000" />
     </task>
     <servers />
   </component>
