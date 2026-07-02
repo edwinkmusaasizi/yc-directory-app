@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { X } from "lucide-react";
 
-const SearchFormRest = () => {
+const SearchFormReset = () => {
     const reset = () => {
         const form = document.querySelector('.search-form') as HTMLFormElement;
         if (form) form.reset();
@@ -14,7 +14,6 @@ const SearchFormRest = () => {
                 <X className="size-5" />
             </Link>
         </button>
-
     )
 }
-export default SearchFormRest
+export default SearchFormReset
