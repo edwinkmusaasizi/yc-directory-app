@@ -3,21 +3,9 @@ import { EyeIcon } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { STARTUPS_QUERY_RESULT } from "@/sanity/types";
 
-export interface StartupTypeCard {
-  _createdAt: string;
-  views: number;
-  author: {
-    _id: string | number;
-    name: string;
-    image?: string;
-  };
-  _id: string | number;
-  description: string;
-  image: string;
-  category: string;
-  title: string;
-}
+export type StartupTypeCard = STARTUPS_QUERY_RESULT[number];
 
 
 const StartupCard = ({ post }: { post: StartupTypeCard }) => {
@@ -64,7 +52,7 @@ const StartupCard = ({ post }: { post: StartupTypeCard }) => {
 
       <Link href={`/startup/${_id}`}>
         <p className="startup-card_desc">{description}</p>
-        <img src={image} alt="placeholder" className="startup-card_img" />
+        <img src={image || undefined} alt="placeholder" className="startup-card_img" />
       </Link>
 
       <div className="flex-between gap-3 mt-5">
