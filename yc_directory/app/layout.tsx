@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { cn } from "@/lib/utils";
+import { Toaster } from "@/components/ui/toaster";
 
 const inter = Inter({subsets:['latin'],variable:'--font-sans'});
 
@@ -65,6 +66,7 @@ export default function RootLayout({
           className={`${workSans.variable} font-work-sans antialiased`}
     >
       {children}
+      <Toaster />
       </body>
     </html>
   );

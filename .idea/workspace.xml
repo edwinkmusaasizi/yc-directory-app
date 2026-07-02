@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8fb3732-68f3-443d-95c2-0fb758055862" name="Changes" comment="" />
+    <list default="true" id="a8fb3732-68f3-443d-95c2-0fb758055862" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/components/StartupCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/components/StartupCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/sanity/lib/queries.ts" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/sanity/lib/queries.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yc_directory/sanity/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/yc_directory/sanity/types.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +178,7 @@
       <workItem from="1782883692810" duration="10067000" />
       <workItem from="1782895120250" duration="18195000" />
       <workItem from="1782916189818" duration="315000" />
-      <workItem from="1782970844301" duration="3010000" />
+      <workItem from="1782970844301" duration="4385000" />
     </task>
     <servers />
   </component>

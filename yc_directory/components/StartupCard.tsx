@@ -4,9 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { STARTUPS_QUERY_RESULT } from "@/sanity/types";
+import { Skeleton } from "@/components/ui/skeleton";
 
 export type StartupTypeCard = STARTUPS_QUERY_RESULT[number];
-
 
 const StartupCard = ({ post }: { post: StartupTypeCard }) => {
   const {
@@ -23,7 +23,7 @@ const StartupCard = ({ post }: { post: StartupTypeCard }) => {
   return (
     <li className="startup-card group">
       <div className="flex-between">
-        <p className="startup-card_date">{formatDate(_createdAt)}</p>
+        <p className="startup_card_date">{formatDate(_createdAt)}</p>
         <div className="flex gap-1.5">
           <EyeIcon className="size-6 text-primary" />
           <span className="text-16-medium">{views}</span>
@@ -52,6 +52,7 @@ const StartupCard = ({ post }: { post: StartupTypeCard }) => {
 
       <Link href={`/startup/${_id}`}>
         <p className="startup-card_desc">{description}</p>
+
         <img src={image || undefined} alt="placeholder" className="startup-card_img" />
       </Link>
 
@@ -66,5 +67,15 @@ const StartupCard = ({ post }: { post: StartupTypeCard }) => {
     </li>
   );
 };
+
+export const StartupCardSkeleton = () => (
+  <>
+    {[0, 1, 2, 3, 4].map((index: number) => (
+      <li key={cn("skeleton", index)}>
+        <Skeleton className="startup-card_skeleton" />
+      </li>
+    ))}
+  </>
+);
 
 export default StartupCard;
