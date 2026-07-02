@@ -5,5 +5,10 @@ import { defineLive } from "next-sanity/live";
 import { client } from './client'
 
 export const { sanityFetch, SanityLive } = defineLive({
-  client,
+  client: client.withConfig({
+    // Live content is available for api version `v2024-11-06` and newer
+    apiVersion: 'v2024-11-06',
+  }),
+  serverToken: process.env.SANITY_API_READ_TOKEN,
+  browserToken: process.env.SANITY_API_READ_TOKEN,
 });
